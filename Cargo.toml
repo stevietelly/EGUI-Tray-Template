@@ -1,0 +1,12 @@
+[package]
+name = "EGUI-Tray-Template"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+chrono = "0.4.45"
+dirs = "7.0.0"
+eframe = { version = "0.37.0", features = ["glow"] }
+winit = "0.30.13"
+tray-icon = "0.26.1"
+windows-capture = "2.0.1"
